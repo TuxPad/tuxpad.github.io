@@ -39,7 +39,7 @@ order: 4
 <a href="https://www.aircrack-ng.org/doku.php?id=cracking_wpa" target="_blank">How to Crack WPA/WPA2</a><br>
 <a href="https://hackingvision.com/2017/07/13/eaphammer-targeted-evil-twin-attacks/" target="_blank">EAPHammer – Targeted Evil Twin Attacks WPA2-Enterprise Networks</a><br>
 
-## <i class="fa fa-bug"></i>Bug Bounty Platforms
+## <i class="fa fa-bug"></i> Bug Bounty Platforms
 The larger, well known platforms:
 
 <a href="https://www.hackerone.com/" target="_blank">HackerOne</a><br>
