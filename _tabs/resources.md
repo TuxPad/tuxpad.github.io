@@ -4,7 +4,6 @@ toc: true
 icon: fas fa-link
 order: 4
 ---
-
 ## <i class="fas fa-graduation-cap"></i> Learning
 
 ### <i class="fas fa-microchip"></i> Basic IT
@@ -22,7 +21,8 @@ order: 4
 
 ### <i class="	far fa-file-code"></i> Coding/Scripting
 <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a><br>
-<a href="https://www.codecademy.com/" target="_blank">Codecademy</a><br>  
+<a href="https://www.codecademy.com/" target="_blank">Codecademy</a><br> 
+<a href ="https://www.codingame.com/multiplayer/clashofcode" target="_blank">Clash of Code</a><br>
 
 ### <i class="fas fa-user-secret"></i> General Hacking
 <a href ="https://hackthebox.com">HackTheBox</a><br>
@@ -40,17 +40,24 @@ order: 4
 <a href="https://hackingvision.com/2017/07/13/eaphammer-targeted-evil-twin-attacks/" target="_blank">EAPHammer – Targeted Evil Twin Attacks WPA2-Enterprise Networks</a><br>
 
 ## <i class="fa fa-bug"></i>Bug Bounty Platforms
-<a href="https://www.yeswehack.com/" target="_blank">YesWeHack</a><br>
+The larger, well known platforms:
+
 <a href="https://www.hackerone.com/" target="_blank">HackerOne</a><br>
 <a href="https://www.bugcrowd.com/" target="_blank">Bugcrowd</a><br>
-<a href="https://www.intigriti.com/" target="_blank">Intigri</a><br>
+<a href="https://www.intigriti.com/" target="_blank">Intigriti</a><br>
+<a href="https://www.yeswehack.com/" target="_blank">YesWeHack</a><br>
+
+Other platforms:
+
 <a href="https://bugbounter.com/" target="_blank">Bugbounter</a><br>
 <a href="https://hackenproof.com/" target="_blank">HackenProof</a><br>
 <a href="https://immunefi.com/" target="_blank">Immunefi</a><br>
-<a href="https://yogosha.com/" target="_blank">Yogosha</a><br>
 <a href="https://www.openbugbounty.org/" target="_blank">Open Bug Bounty</a><br>
+<a href="https://yogosha.com/" target="_blank">Yogosha</a><br>
 
 ## <i class="fab fa-youtube"></i> YouTube
+Some CyberSec content creators:
+
 <a href="https://www.youtube.com/c/Nahamsec" target="_blank">Nahamsec</a><br>
 <a href="https://www.youtube.com/c/ChrisGreer" target="_blank">Chris Greer</a><br>
 <a href="https://www.youtube.com/channel/UCcHAyzVBPtV6i_rhqBPoA6w" target="_blank">Elevate Cyber</a><br>
@@ -72,11 +79,12 @@ order: 4
 <a href="https://www.youtube.com/c/hakluke" target="_blank">hakluke</a><br>
 <a href="https://www.youtube.com/c/CristiVladZ/playlists" target="_blank">Cristi Vlad</a><br>
 <a href="https://www.youtube.com/c/LoiLiangYang" target="_blank">Loi Liang Yang</a><br>
-<a href="https://www.youtube.com/c/NatoasCode/playlists" target="_blank">Nato as Code</a><br>
-  
+ 
+ Some other good stuff:
+
+<a href="https://www.youtube.com/c/MissingSemester" target="_blank">Missing Semester</a><br>
 <a href="https://www.youtube.com/channel/UC5ZAemhQUQuNqW3c9Jkw8ug" target="_blank">Stanford Dbclass</a><br>
 <a href="https://www.youtube.com/c/GeeksLesson/videos" target="_blank">Geek's Lesson</a><br>
-<a href="https://www.youtube.com/c/MissingSemester" target="_blank">Missing Semester</a><br>
 <a href="https://www.youtube.com/c/Freecodecamp" target="_blank">freeCodeCamp.org</a><br>
   
 
