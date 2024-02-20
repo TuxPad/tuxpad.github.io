@@ -13,7 +13,7 @@ order: 5
 # $whoami
 Hi! My name is Fredrik, and I'm a pentesting student, CTF player,and an avid Linux user.
 I have an interest in not just hacking, but security in general, as well as user integrity and opsec.
-
+Online I use the handle TuxPad, as I used to have a ThinkPad laptop running Linux.
 
 I'm currently enrolled in the "IT security tester" program at <a href="https://www.iths.se/utbildningar/it-sakerhetstestare/" target="_blank">ITHS</a>.<br>
 
