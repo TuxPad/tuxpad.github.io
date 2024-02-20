@@ -74,9 +74,9 @@ app.post("/api/login", (req, res) => {
 ```
 
 # Exploit
-This is where I learned about <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes" target="_blank">object prototype chains</a> in JS. Having worked with classes in Java, this was a bit different, but it seems that non-null objects in JS contains a link to a prototype object, which in turn has prototype, until reaching a null-object as the final link.
+This is where I learned about <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes" target="_blank">object prototype chains</a> in JS. Having worked with classes in Java, this was a bit different, but it seems that non-null objects in JS contains a link to a prototype object, which in turn has a prototype, until reaching a null-object as the final link.
 
-As such, all JS objects, including literals created using {} syntax inherits methods and constructors from Object.prototype, which includes toString(), hasOwnPropert(),valueOf(), `__proto__`, etc.
+As such, all JS objects, including literals created using {} syntax inherits methods and constructors from Object.prototype, which includes toString(), hasOwnProperty(),valueOf(), `__proto__`, etc.
 
 This means that passing any of these inherited properties as the username will do a boolean check against isAdmin, and since these properties exists, the check will return true.
 
