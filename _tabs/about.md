@@ -24,7 +24,7 @@ The reason why I've selected this path is that both PNPT and CPTS are practical 
 
 # Experience
 - I have rooted a few boxes on HTB, participated in CTFs, and gotten DC admin in the AD lab "Game of Active Directory"
-I'm familiar with, and have experience using tools such as the metasploit framework, burp suite, wireshark, nmap, netcat, etc.
+- I'm familiar with, and have experience using tools such as the metasploit framework, burp suite, wireshark, nmap, netcat, etc.
 - Most of the programming I've done is mainly OOP in Java, using JUnit, and implemented data types such as linked list, BST and graph, as well as search algorithms. In addition have done ptrogramming/scripting in Python, mainly for solving CTF challenges, and a small amount of concurrency programming in Go for fun.
 - I have experience with virtualization in setting up home labs, using VirtualBox, QEMU/KVM, as well as Docker.
 - When switching to Linux a few years back, I came to the conclusion that the best beginner distro would be one that doesn't have everything prepackaged, which would force me to learn more, and so I decided to go with Arch Linux, which I am still using as my daily driver to this day, albeit now with the tiling WM Xmonad instead of using a DE. Some people would say it's a hassle to set up your system by yourself, but I think it's a good way to learn, and the satisfaction of configuring your system the way you like it, or troubleshooting it when something breaks, is well worth it.
