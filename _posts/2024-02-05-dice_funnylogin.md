@@ -16,7 +16,7 @@ The programming I've done has been mainly in Java and Python, with a touch of Go
 
 # Reviewing the code 
 The first part sets up a SQLite database and imports the flag.
-```JavaScript
+```javascript
 const db = require('better-sqlite3')('db.sqlite3');
 db.exec(`DROP TABLE IF EXISTS users;`);
 db.exec(`CREATE TABLE users(
@@ -32,7 +32,7 @@ Now, here's when things do get funny. The application creates an array of 100k u
 
 So that means the admin is selected randomly at runtime. An SQLi alone is not going to cut it, because the database itself has no idea which of the users is admin.
 
-```JavaScript
+```javascript
 const users = [...Array(100_000)].map(() => ({ user: `user-${crypto.randomUUID()}`, pass: crypto.randomBytes(8).toString("hex") }));
 db.exec(`INSERT INTO users (id, username, password) VALUES ${users.map((u,i) => `(${i}, '${u.user}', '${u.pass}')`).join(", ")}`);
 
@@ -51,7 +51,7 @@ We thus need to fulfill the following conditions:
 2. That id needs to be in the range of the users array.
 3. The user provided need to evaluate to true for isAdmin.
 
-```JavaScript
+```javascript
 app.post("/api/login", (req, res) => {
     const { user, pass } = req.body;
 
