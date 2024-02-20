@@ -4,6 +4,9 @@ toc: true
 icon: fas fa-link
 order: 4
 ---
+Here I have collected some useful links for others who are studying CyberSec, such as my classmates at ITHS.
+
+
 ## <i class="fas fa-graduation-cap"></i> Learning
 
 ### <i class="fas fa-microchip"></i> Basic IT
