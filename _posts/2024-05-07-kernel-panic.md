@@ -45,6 +45,7 @@ Exit out and run
 Chroot in again, and we have pacman!
 Now there's bound to be a lot more broken packages, so I did a reinstall of all packages using
 >pacman -Syu $(pacman -Qnq) --overwrite "*"
+
 (which ofc could've just been `pacman -Qqn | pacman -S -`)
 
 Which did the trick. Rebooted, and got back in!
