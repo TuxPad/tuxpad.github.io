@@ -3,7 +3,7 @@ layout: post
 toc: true
 ---
 
-# First header
+## First header
 some text pertaining to the subject
 
 random text...dajfjöasdfjasdkjlöfjlkö
@@ -17,7 +17,7 @@ etyjytjyetjeyjetjeyjeyj
 jeyetytejeytjetjufghjhejd
 asfdhg
 
-# sub header
+### sub header
 some more informational and insightful text
 
 hjgjhgjgkghgkkngjldfkhgl
@@ -27,7 +27,7 @@ gfdejeekeopeoejehe
 eehjehifjifo
 jfydoelfjfurkrnuf
 
-### sub-sub header
+### Another sub header
 a funny anecdote that gives an example
 
 dhfhffuufufufufufjjfjfhfhfhfhf
@@ -37,7 +37,7 @@ fjfyyeyeyryehrhehhreyrhfhdf
 dfuuhfduhfdufhuheruyuhdgjygudg
 fsfhudfyreuysfyudhgdf
 
-# Second header
+## Second header
 lorem ipsum, etc.
 
 fdsjiosdiugoiufoijhoifduobjdfhbjodfigjoifdohijdfohidfjhofd
@@ -45,7 +45,7 @@ fdgnlfdogdflgiodfngdfgifdngoidfngoodfignodfg
 dfgnoifdigoidfuouhdoihuofsjohijdghijdfoh
 fshoisfjgosdijgfoijosifjhogtlhjodjgbodigjbo
 
-## Another sub header
+### Another sub header
 
 joidfjgoijdsfjnmlsidfjhnsdghnlsdfhmldghs
 sdnfohisdfinsdofhngfsidglsdfgndsfligsd
@@ -55,6 +55,6 @@ fsdongodfnsfogisdoignds
 mgsndfogsdfongoisfdogindsfog
 sdfgniosodfngosdgnodsng
 
-### Yet another sub-sub header!
+### Yet another sub header!
 
 Ok then....
