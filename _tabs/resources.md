@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 toc: true
 icon: fas fa-link
 order: 4
