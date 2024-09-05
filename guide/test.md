@@ -1,7 +1,6 @@
 ---
 layout: post
 toc: true
-permalink: /
 ---
 
 # First header
