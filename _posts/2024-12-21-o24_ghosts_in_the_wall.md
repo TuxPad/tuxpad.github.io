@@ -74,7 +74,7 @@ In this case, we can see that although the program (`/snap/bin/ls`) is owned by 
 ![rename_ls](https://tuxpad.github.io/assets/images/ctf/o24/ghost_13.png)  
 
 
-We'll just rename ls,
+We'll just rename ls,  
 ![rename_ls](https://tuxpad.github.io/assets/images/ctf/o24/ghost_14.png)  
 
 creeate a shell script to cat the flag (we could get a shell, but there's no need),
