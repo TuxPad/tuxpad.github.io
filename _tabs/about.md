@@ -15,12 +15,6 @@ Hi! My name is Fredrik, and I'm a pentesting student, CTF player,and an avid Lin
 I have an interest in not just hacking, but security in general, as well as user integrity and opsec.<br>
 Online I use the handle TuxPad, as I used to have a ThinkPad laptop running Linux.<br>
 
-I'm currently enrolled in the "IT security tester" program at <a href="https://www.iths.se/utbildningar/it-sakerhetstestare/" target="_blank">ITHS</a>.<br>
-
-
-In addition to that, I'm also doing the Penetration Tester path at HTB academy in parallell with the PEH course at TCM academy.
-I am doing this to prepare for taking the <a href="https://certifications.tcm-sec.com/pnpt/" target="_blank">PNPT</a> certification from TCM Security, <a href="https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/" target="_blank">CPTS</a> from HTB, and <a href="https://www.offsec.com/courses/pen-200/" target=_blank>OSCP</a> from Offensive Security.
-The reason why I've selected this path is that both PNPT and CPTS are practical certs that mimic an actual engagement, where you both have to get DC admin and deliver a professionally written report in order to pass the exam. 
 
 # Experience
 - I have rooted a few boxes on HTB, participated in CTFs, and gotten DC admin in the AD lab "Game of Active Directory"
