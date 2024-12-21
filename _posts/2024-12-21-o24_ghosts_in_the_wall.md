@@ -37,7 +37,7 @@ Wait a sec, this is a reverse shell! The author of the challenge isn't going to 
 
 We follow the stream, which provides more useful information.  
 In addition to the reverse shell attempt, we can see that the server responded 'b64 command sent', and a second POST request with a hint that it din't work.  
-![pcap_stream](https://tuxpad.github.io/assets/images/ctf/o24/ghost_04.png)  
+![pcap_stream](https://tuxpad.github.io/assets/images/ctf/o24/ghost_05.png)  
 
 ### Getting a foothold
 When we have a look in the browser we get to a login screen that we'll need to bypass.  
