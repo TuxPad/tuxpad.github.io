@@ -70,7 +70,7 @@ So let's do just that! We can see the file `/root/root.txt`, which obviously is 
 
 When you find that you have access to a particular command as sudo, you should always consider how that can be abused, particularly if that's the only command you can run as a super user. Perhaps you can pipe something to the command, get the program to run in interactive mode or you can escape it to a shell.  
   
-In this case, we can see that although the program (`/snap/bin/ls`) is owned by root, and we only have permission to execute and read, the directory `/snap/bin` has write permission for all set. This means that although we can't manipulate the contents of the file, we can do things like rename, move, or delete it! This means that we can replace it with a shell script, which we then can run in sudo.  
+In this case, we can see that although the program (`/snap/bin/ls`) is owned by root, and we only have permission to execute and read, the directory `/snap/bin` has write permission for all set. This means that although we can't manipulate the contents of the file, we can do things like rename, move, or delete it, and so we can replace it with a shell script which we then can run in sudo!  
 ![rename_ls](https://tuxpad.github.io/assets/images/ctf/o24/ghost_13.png)  
 
 
