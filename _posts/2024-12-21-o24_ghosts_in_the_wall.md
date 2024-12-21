@@ -2,7 +2,7 @@
 layout: post
 title: O24 CTF 'Ghost In The Wall' Writeup
 date: 2024-12-21
-categories: [HTB, Machines]
+categories: [CTF]
 tags: [ctf,writeup,wireshark,pcap,linux,privesc]
 toc: true
 published: true
