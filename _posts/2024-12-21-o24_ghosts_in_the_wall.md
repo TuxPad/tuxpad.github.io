@@ -49,7 +49,7 @@ We can try something like SQLi, but that doesn't work. However, in the pcap we c
 Now, the server response said base64 encoded, but the shell was sent in clear text, and then we saw that it didn't work. So, we'll just craft our own reverse shell command, base64 encode it and give it a shot, and we get a shell!  
 
 ### Getting user account
-In the base directory we can se the document `routes.py`, which contains the backend for the login, made in Flask. Here we can see the hard coded credentials for the login. A password is always good to collect, as it might be reused somewhere (though that's not the case in this challenge).  
+In the webroot directory we can se the document `routes.py`, which contains the backend for the login, made in Flask. Here we can see the hard coded credentials for the login. A password is always good to collect, as it might be reused somewhere (though that's not the case in this challenge).  
 ![linux_flask_app](https://tuxpad.github.io/assets/images/ctf/o24/ghost_08.png)  
 
 Now we can start doing some local host enumeration; check OS version, environment variables, user accounts, groups, etc.  
