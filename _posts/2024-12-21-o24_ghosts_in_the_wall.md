@@ -78,7 +78,7 @@ We'll just rename ls,
 ![rename_ls](https://tuxpad.github.io/assets/images/ctf/o24/ghost_14.png)  
 
 creeate a shell script to cat the flag (we could get a shell, but there's no need),
-[shell_script](https://tuxpad.github.io/assets/images/ctf/o24/ghost_15.png)  
+![shell_script](https://tuxpad.github.io/assets/images/ctf/o24/ghost_15.png)  
   
 chmod it to be executable, and then run it to get the final part of the flag.
-[flag_3](https://tuxpad.github.io/assets/images/ctf/o24/ghost_16.png)  
+![flag_3](https://tuxpad.github.io/assets/images/ctf/o24/ghost_16.png)  
