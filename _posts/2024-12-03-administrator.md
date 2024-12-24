@@ -3,7 +3,7 @@ layout: post
 title: HTB Administrator Writeup
 date: 2024-12-03
 categories: [HTB, Machines]
-tags: [htb,writeup]
+tags: [htb,writeup,windows,active directory,bloodhound]
 toc: true
 published: true
 ---
