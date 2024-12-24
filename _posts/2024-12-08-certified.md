@@ -3,7 +3,7 @@ layout: post
 title: HTB Certified Writeup
 date: 2024-12-08
 categories: [HTB, Machines]
-tags: [shadow credentials, bloodhound, active directory,htb,writeup]
+tags: [htb,writeup,windows,active directory,bloodhound,shadow credentials,]
 toc: true
 published: true
 ---
