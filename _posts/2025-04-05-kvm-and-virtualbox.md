@@ -79,27 +79,27 @@ want to launch the applications from my user and I don't want to give a general 
 kernel modules I split the scipts into a loading and a launching script.
 
 vboxLoad.sh:
-```
+```bash
 #!/bin/bash
 /sbin/rmmod kvm_intel kvm
 /usr/bin/vboxreload
 ```
 
 vboxLaunch.sh:
-```
+```bash
 #!/bin/bash
 sudo /home/tuxpad/scripts/vbLoad.sh
 /usr/bin/virtualbox
 ```
 
 kvmLoad.sh:
-```
+```bash
 modprobe --remove vboxnetadp vboxnetflt vboxdrv
 modprobe kvm_intel kvm
 ```
 
 kvmLaunch.sh:
-```
+```bash
 sudo /home/tuxpad/scripts/kvmLoad.sh
 /usr/bin/virt-manager
 ```
