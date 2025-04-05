@@ -64,7 +64,7 @@ Now you'll find that VirtualBox will run. If you then want to use KVM you'll hav
 The module will be located in a
 directory named after the current version of your kernel, so to avoid having to update the script every
 time you update the kernel I recommend you use \`uname -r\` (note the backticks) in the pathname:
-```
+```bash
 /sbin/insmod /lib/modules/`uname -r`/kernel/arch/x86/kvm/kvm.ko.zst
 ```
 
