@@ -25,7 +25,7 @@ After solving the challenge through SQL injection, I went back to the source to 
 When we enter the challenge we get a login screen with the option of registering a new user.
 Trying a simple password `' OR 1=1;--` SQLi only returns "Invalid credentials", so we'll register a new user.
 
-Logging in with our new user brings us into an employee directory with a search bar, and up in the top right corner is a drop-down for the logged in user.
+Logging in with our new user brings us into an employee directory with a search bar, and in the top right corner is a drop-down for the logged in user.
 Clicking our username reveals the option "Admin panel", but clicking that returns " You don't have the permission to access this area".
 ![flag_1](https://tuxpad.github.io/assets/images/ctf/2025/hero/no_access.png)
 
