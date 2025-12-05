@@ -184,7 +184,8 @@ def init_db():
 
 As we saw previously, the employee search is vulnerable to SQLi, letting us dump revoked tokens from the database.
 `' UNION SELECT 1,2,3,token FROM revoked_tokens;--`
-> SCREENSHOT
+
+![revoked_tokens](https://tuxpad.github.io/assets/images/ctf/2025/hero/revoked_tokens.png)
 
 Decoding the first token shows us that this is the admins token, that's the one we'll use.
 
