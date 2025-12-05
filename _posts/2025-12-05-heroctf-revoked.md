@@ -31,7 +31,8 @@ Clicking our username reveals the option "Admin panel", but clicking that return
 
 Let's try to see if the search bar is vulnerable to SQLi by just entering a single quote.
 It turns out that it indeed is vulnerable, and we get an internal server error.
-![search_sqli](https://tuxpad.github.io/assets/images/ctf/2025/hero/sqli.png)
+
+![search_sqli](https://tuxpad.github.io/assets/images/ctf/2025/hero/search_sqli.png)
 
 So we'll start off by trying to get a UNION select query that will display properly and not result in an error.
 We can discover how many columns the query returns by incrementally adding null values to the UNION SELECT until the query executes without errors.
