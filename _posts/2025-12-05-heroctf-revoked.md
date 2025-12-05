@@ -74,6 +74,7 @@ Either way, we need to know the kind of value used.
 ![is_admin_bool](https://tuxpad.github.io/assets/images/ctf/2025/hero/is_admin_bool.png)
 
 Now we can see that the app uses integers as booleans.
+
 We could try to insert into the database, but SQLite3 (via Python) disallows multiple SQL statements per execute() call, so stacked queries are not possible, and because the base statement is a SELECT, the UNION injection is constrained to SELECT-only syntax. Therefore no INSERT/UPDATE/DELETE payload can be executed.
 
 Instead we will dump password hashes, and we now know that we can filter for is_admin=1 to only get hashes for admin accounts.
