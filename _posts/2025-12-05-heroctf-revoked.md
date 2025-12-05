@@ -45,6 +45,7 @@ If we change the query to `'UNION SELECT 1,2,3,4;--` we can see which is which;
 - The second value is the employee name.
 - The third value is not shown.
 - The fourth value is the position.
+
 ![sqli_positions](https://tuxpad.github.io/assets/images/ctf/2025/hero/sqli_positions.png)
 
 Now we know that any values we want displayed should be in the second and fourth positions.
@@ -52,6 +53,7 @@ Now we know that any values we want displayed should be in the second and fourth
 Knowing which type of database is used will help you knowing how to enumerate it, so that's a good place to start.
 I'm guessing that it's SQLite, so we can query the version to see:
 `' UNION SELECT 1,sqlite_version(),3,4;--'`, which shows that it is indeed SQLite.
+
 ![sqlite_version](https://tuxpad.github.io/assets/images/ctf/2025/hero/sqlite_version.png)
 
 Now that we know the type of database, we can enumerate the database tables:
