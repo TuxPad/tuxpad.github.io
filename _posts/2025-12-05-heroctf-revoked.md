@@ -99,6 +99,7 @@ From what we already know after black box testing, we will focus on:
 
 
 **Login not vulnerable to SQLi**
+
 We start off by having a look at the code for the login.
 
 ```python
@@ -121,6 +122,7 @@ In addition to this, the password is not part of the query at all; if the user i
 
 
 **Emplyee search SQLi vulnerability**
+
 The employee search, however, is a classic example of code that is vulnerable.
 
 ```python
