@@ -98,7 +98,7 @@ From what we already know after black box testing, we will focus on:
 - Employee search is vulnerable to SQLi
 
 
-**Login is not vulnerable to SQLi**
+**Login not vulnerable to SQLi**
 We start off by having a look at the code for the login.
 
 ```python
@@ -120,6 +120,7 @@ SQLite automatically doubles single quotes in string literals, safely escaping S
 In addition to this, the password is not part of the query at all; if the user is found in the db, it is fetched and stored in the variable user, and the password entered is hashed and compared to the hash in the user variable.
 
 
+**Emplyee search SQLi vulnerability**
 The employee search, however, is a classic example of code that is vulnerable.
 
 ```python
@@ -128,7 +129,7 @@ The employee search, however, is a classic example of code that is vulnerable.
     )
 ```
 
-Here we can see that the  f-string directly interpolates the user input, which sent as a query to the database, meaning that the user input will be interpreted as SQL syntax, and thus is vulnerable to injection attacks.
+Here we can see that the  f-string directly interpolates the user input, which sent as a query to the database, meaning that the user input will be interpreted as SQL syntax, making it vulnerable to injection attacks.
 
 Furthermore, as we can see the names of the database tables and columns both in the initialization, and in the queries, constructing a query to fetch the information we need becomes trivial.
 
