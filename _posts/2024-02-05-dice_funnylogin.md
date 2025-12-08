@@ -2,8 +2,8 @@
 layout: post
 title: DiceCTF 2024 - Funnylogin
 date: 2024-02-05
-categories: [CTF, Web]
-tags: [ctf, sqli, javascript, writeup]
+categories: [CTF,Web]
+tags: [CTF,SQLi,JS,Writeup]
 toc: true
 published: true
 ---
@@ -14,7 +14,7 @@ The application, which is just a login page, is written in JavaScript, and the b
 
 The programming I've done has been mainly in Java and Python, with a touch of Go. I've had a look at JS, but never really used it to actually make any content. So a JS challenge is a good opportunity for me to learn something new.
 
-# Reviewing the code 
+# Reviewing the code
 The first part sets up a SQLite database and imports the flag.
 ```javascript
 const db = require('better-sqlite3')('db.sqlite3');

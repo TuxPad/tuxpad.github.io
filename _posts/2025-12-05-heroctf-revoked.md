@@ -2,7 +2,7 @@
 layout: post
 title: HeroCTF 2025 - Revoked & Revoked Revenge
 date: 2025-12-05
-categories: [CTF]
+categories: [CTF,Web]
 tags: [Writeup,Web,SQLi,Python,JWT]
 toc: true
 published: true

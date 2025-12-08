@@ -3,7 +3,7 @@ layout: post
 title: Using KVM and VirtualBox on the same machine.
 date: 2025-04-05
 categories: [Linux, homelab]
-tags: [kvm,virtualbox,virtualization,linux,troubleshooting]
+tags: [kvm,VirtualBox,Virtualization,Linux,Troubleshooting]
 toc: true
 published: true
 ---

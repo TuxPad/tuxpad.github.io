@@ -3,7 +3,7 @@ layout: post
 title: Kernel panic during system update
 date: 2024-05-07
 categories: [Linux]
-tags: [troubleshooting,arch]
+tags: [Troubleshooting,Arch]
 toc: true
 published: true
 ---
